@@ -1,6 +1,6 @@
 function MobileMenu() {
   return (
-    <div className="md:hidden my-10 h-screen " id="mobile-menu">
+    <div className="md:hidden my-10 h-screen w-full " id="mobile-menu">
       <div className="space-y-16  flex flex-col  items-center ">
         <a
           href="#"

@@ -8,7 +8,7 @@ function NavBar() {
 
   return (
     <>
-      <nav className="bg-[#0A0A0A] md:m-4 md:rounded-full sticky top-0 z-30 ">
+      <nav className="bg-[#0A0A0A] md:m-4 md:mx-10 md:rounded-full  md:p-2">
         <div className=" px-2 ">
           <div className="relative flex h-16 items-center justify-between ">
             <div className="absolute inset-y-0 left-0 flex items-center md:hidden ">
@@ -39,7 +39,7 @@ function NavBar() {
               <span className="text-white ml-52 flex">
                 <FontAwesomeIcon
                   icon={faStarOfLife}
-                  className="mr-2 text-2xl text-[#BA622F] "
+                  className="mr-2 text-2xl text-[#ed732b] "
                 />
                 BANCARIA
               </span>
@@ -57,7 +57,7 @@ function NavBar() {
                   href="#"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
-                  Pricing
+                  About Us
                 </a>
 
                 <a
@@ -75,14 +75,13 @@ function NavBar() {
                   href="#"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
-                  About Us
+                  Login
                 </a>
-
                 <a
                   href="#"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
-                  Contact
+                  Sign Up
                 </a>
               </div>
             </div>
